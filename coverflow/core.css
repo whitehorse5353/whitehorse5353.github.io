@@ -1,0 +1,23 @@
+img, object, embed, video {max-width: 100%;}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {width:100%;}
+*:not(input):not(textarea){-webkit-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+input,textarea,input:focus,textarea:focus{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+input.text-box[class~="amount"]{float:right;width:45%;text-align:right;}
+select#Currency_Id{float:left;width:45%;}
+.fixFoClear{padding:15px 0 0 0;}
+body{margin: 0px;padding: 0px;background: #473C46;overflow: hidden;}
+.wrapper{width:auto;height:auto;}
+.imageOutput{margin:0 auto;position: relative;overflow-x:hidden; }
+.cropper,.dym{border: 1px dotted #e9b330;background: rgba(233,179,48,0.5);position: absolute;left:0;top:0;}
+.dym{width: 100px;height: 100px;background: red;}
+input[type="file"]{visibility: hidden;}
+.cropper .ui-resizable-handle.ui-icon{width: 30px;height: 30px;right: -15px;bottom: -15px;border-radius: 30px;-moz-border-radius: 30px;-webkit-border-radius: 30px;background:#e9b330;position: absolute;}
+a.cameraTrigger{background: url('camera.png') no-repeat;background-size: 64px 64px;-moz-background-size: 64px 64px;-webkit-background-size: 64px 64px;width: 64px;height: 64px;position: absolute;bottom: 0px;display: inline-block;}
+a.applyCrop,a.cancelCrop{background: url('accept.png') center center no-repeat;background-size: 22px 22px;-moz-background-size: 22px 22px;-webkit-background-size: 22px 22px;width: 22px;height: 22px;display: inline-block;padding: 5px;z-index: 9999;}
+a.cancelCrop{background-image: url('cancel.png');float: right;}
+/* carousel viewer */
+.carouselContainer{height: 230px;margin: 0 auto 40px;perspective: 1100px;-webkit-perspective: 1100px;position: relative;width: 250px;}
+.carouselPanWrapper{height: 100%;position: absolute;transform-style: preserve-3d;transition: transform 1s ease 0s;width: 100%;-webkit-transform: translateZ( -288px );-webkit-transform-style: preserve-3d;-webkit-transition: -webkit-transform 1s;}
+.imageItems{border: 5px solid #473C46;color: white;display: block;font-size: 80px;font-weight: bold;width: 195px;height: 198px;left:25px;top:15px;line-height: 116px;position: absolute;text-align: center;-webkit-backface-visibility: hidden;-moz-backface-visibility: hidden;backface-visibility: hidden;margin: 0 auto;}
+.imageItems img{max-width: 100%;max-height: 100%;width: auto;} 
